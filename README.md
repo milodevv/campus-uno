@@ -39,6 +39,12 @@ El sistema está estructurado siguiendo principios de Clean Architecture, lo que
 3. Configura la cadena de conexión a la base de datos en el proyecto de infraestructura.
 4. Ejecuta el proyecto `campusuno.API` para iniciar la API y acceder a la documentación Swagger.
 
+## Licencia
+
+Este proyecto está licenciado bajo los términos de la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+
+© 2025 milodevv. Todos los derechos reservados.
+
 ---
 
 Este sistema está diseñado para ser la base de una plataforma educativa moderna, adaptable y centrada en el estudiante.
