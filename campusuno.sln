@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{20DF1DF0-90A0-4706-8FB7-3B05AFB65466}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{2FD9704E-068F-4151-92D8-9A8D6687E9BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "campusuno.Domain", "src\Domain\campusuno.Domain\campusuno.Domain.csproj", "{56C22499-9C62-4B89-9E85-882E6B660B1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{8B4F5E0F-48A8-4309-9DB8-EE0EFC8055EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "campusuno.UseCases", "src\Application\campusuno.UseCases\campusuno.UseCases.csproj", "{1DBDDCC5-0A90-44F7-B787-B644EC84F297}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{A40FEFFE-6884-4923-B073-773E7B71F648}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "campusuno.Persistence", "src\Infrastructure\campusuno.Persistence\campusuno.Persistence.csproj", "{89FFE820-CCFD-414C-9B41-660614F6616A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{DD6EEC62-03BB-403F-B401-C35BC8C1A704}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "campusuno.API", "src\Presentation\campusuno.API\campusuno.API.csproj", "{5022C844-1671-48E3-8AD2-1C6A86E797FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56C22499-9C62-4B89-9E85-882E6B660B1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56C22499-9C62-4B89-9E85-882E6B660B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56C22499-9C62-4B89-9E85-882E6B660B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56C22499-9C62-4B89-9E85-882E6B660B1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DBDDCC5-0A90-44F7-B787-B644EC84F297}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DBDDCC5-0A90-44F7-B787-B644EC84F297}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DBDDCC5-0A90-44F7-B787-B644EC84F297}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DBDDCC5-0A90-44F7-B787-B644EC84F297}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89FFE820-CCFD-414C-9B41-660614F6616A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89FFE820-CCFD-414C-9B41-660614F6616A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89FFE820-CCFD-414C-9B41-660614F6616A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89FFE820-CCFD-414C-9B41-660614F6616A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5022C844-1671-48E3-8AD2-1C6A86E797FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5022C844-1671-48E3-8AD2-1C6A86E797FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5022C844-1671-48E3-8AD2-1C6A86E797FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5022C844-1671-48E3-8AD2-1C6A86E797FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2FD9704E-068F-4151-92D8-9A8D6687E9BD} = {20DF1DF0-90A0-4706-8FB7-3B05AFB65466}
+		{56C22499-9C62-4B89-9E85-882E6B660B1D} = {2FD9704E-068F-4151-92D8-9A8D6687E9BD}
+		{8B4F5E0F-48A8-4309-9DB8-EE0EFC8055EA} = {20DF1DF0-90A0-4706-8FB7-3B05AFB65466}
+		{1DBDDCC5-0A90-44F7-B787-B644EC84F297} = {8B4F5E0F-48A8-4309-9DB8-EE0EFC8055EA}
+		{A40FEFFE-6884-4923-B073-773E7B71F648} = {20DF1DF0-90A0-4706-8FB7-3B05AFB65466}
+		{89FFE820-CCFD-414C-9B41-660614F6616A} = {A40FEFFE-6884-4923-B073-773E7B71F648}
+		{DD6EEC62-03BB-403F-B401-C35BC8C1A704} = {20DF1DF0-90A0-4706-8FB7-3B05AFB65466}
+		{5022C844-1671-48E3-8AD2-1C6A86E797FD} = {DD6EEC62-03BB-403F-B401-C35BC8C1A704}
+	EndGlobalSection
+EndGlobal
