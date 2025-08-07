@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Identity;
 
 namespace campusuno.Persistence.Identity
 {
-    internal class ApplicationUser
+    public class ApplicationUser : IdentityUser
     {
+        public string Name { get; set; }
+        public string LastName { get; set; }
     }
 }
