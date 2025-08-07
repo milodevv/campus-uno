@@ -1,12 +1,12 @@
-﻿using campusuno.UseCases;
-using Microsoft.AspNetCore.Identity;
+﻿using campusuno.Persistence.Identity;
+using campusuno.UseCases;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 
 namespace campusuno.Persistence;
 
-public class ApplicationDbContext : IdentityDbContext<IdentityUser>, IApplicationDbContext
+public class ApplicationDbContext : IdentityDbContext<ApplicationUser>, IApplicationDbContext
 {
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
