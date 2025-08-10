@@ -1,4 +1,5 @@
-﻿using campusuno.Persistence.Identity;
+﻿using campusuno.Domain.Entities;
+using campusuno.Persistence.Identity;
 using campusuno.UseCases;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
@@ -9,6 +10,8 @@ namespace campusuno.Persistence;
 public class ApplicationDbContext : IdentityDbContext<ApplicationUser>, IApplicationDbContext
 {
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
+
+    public DbSet<Students> Students { get; set; }
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
