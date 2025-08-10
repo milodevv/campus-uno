@@ -9,8 +9,8 @@ namespace campusuno.Domain.Commons
     public class BaseAuditableEntity
     {
         public DateTime CreateAt { get; set; }
-        public Guid CreateBy { get; set; }
-        public DateTime UpdateAt { get; set; }
-        public Guid UpdateBy { get; set; }
+        public string CreateBy { get; set; }
+        public DateTime? UpdateAt { get; set; }
+        public string UpdateBy { get; set; }
     }
 }
