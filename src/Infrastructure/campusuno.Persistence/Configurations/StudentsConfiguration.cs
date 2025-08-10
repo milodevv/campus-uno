@@ -14,7 +14,7 @@ namespace campusuno.Persistence.Configurations
             builder.Property(x => x.Id).UseIdentityColumn().IsRequired();
             builder.Property(x => x.CreateAt).IsRequired().HasColumnType("DATETIME").HasDefaultValueSql("GETDATE()");
             builder.Property(x => x.CreateBy).IsRequired(false).HasMaxLength(25);
-            builder.Property(x => x.UpdateAt).IsRequired(false).HasColumnType("DATETIME");
+            builder.Property(x => x.UpdateAt).IsRequired().HasColumnType("DATETIME");
             builder.Property(x => x.UpdateBy).IsRequired(false).HasMaxLength(25);
             builder.Property(x => x.FullName).IsRequired().HasMaxLength(2048);
             builder.Property(x => x.Password).IsRequired();
