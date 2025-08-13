@@ -22,7 +22,6 @@ namespace campusuno.Persistence.Configurations
             builder.Property(x => x.PhoneNumber).IsRequired(false).HasMaxLength(15);
             builder.Property(x => x.Address).IsRequired(false).HasMaxLength(100);
             builder.Property(x => x.DateOfBirth).IsRequired(false).HasColumnType("DATETIME");
-
         }
     }
 }
